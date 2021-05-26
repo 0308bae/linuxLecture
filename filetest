@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "enter name of file/directory [enter]"
+read x
+echo `file $x`
